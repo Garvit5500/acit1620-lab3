@@ -17,7 +17,6 @@ body {
     text-align: center;
     position:fixed;
 
-    float:left;
     right:0;
     left:0;
     bottom:0;
@@ -28,7 +27,7 @@ body {
 .img {
 
     align-items: center;
-    border : 1rem;
+  
     float: left;
     padding: 1rem;
     max-width: 20%;
@@ -101,8 +100,8 @@ form button {
  
     padding: 8px;
     font-size: 24px;
-    display: block;
-    
+    /* display: block; */
+    list-style: none;
  
 } 
 
@@ -113,8 +112,8 @@ form button {
     color:#008B8B;
     text-decoration: none;
     padding: 1rem;
-    
-    
+   
+
     
 }
 .box2 ul li :hover{
@@ -123,4 +122,8 @@ color:#2c3737;
 background-color: #006b8b;
 transition: 0.3s all;
 
+}
+#head{
+
+    text-align: center;
 }
