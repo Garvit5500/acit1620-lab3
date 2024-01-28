@@ -37,18 +37,24 @@ body {
 
 
 
-@media screen and (min-width:600px)
+@media only screen and (max-width:600px)
 {
-    .box2   {
+    .box2  li{
     
-                float: left;
-    
+                 float: left;
+                position:relative;
+               
+              
             }
+           
+    
+    }
 
-    .box2 a{float:left;}
-
-}
-
+    .box2 {
+        
+        float:left;
+          
+    }
     
 
 
@@ -102,6 +108,7 @@ form button {
     color:#008B8B;
     text-decoration: none;
     padding: 1rem;
+    
     
     
 }
