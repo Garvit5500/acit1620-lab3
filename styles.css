@@ -37,12 +37,12 @@ body {
 
 
 
-@media screen and (min-width:600px)
+@media only screen and (max-width:600px)
 {
     .box2  li{
     
-                 float: left;
-                position:relative;
+                float: left;
+            
                
               
             }
