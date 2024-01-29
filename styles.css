@@ -81,7 +81,7 @@ form {
 input,
 textarea {
     display: block;
-    width: 100%;
+    width: 70%;
     margin-bottom: 1rem;
 
 }
@@ -100,8 +100,7 @@ form button {
  
     padding: 8px;
     font-size: 24px;
-    /* display: block; */
-    list-style: none;
+    display: block;
  
 } 
 
